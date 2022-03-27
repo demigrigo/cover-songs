@@ -1,0 +1,473 @@
+#filename: songs.ttl
+prefix track: <http://www.tracks.com/track#> 
+prefix singers: <http://www.singers.com/singers#> 
+prefix sing: <http://www.sing.com/sing#> 
+
+track:a112 track:title "Kane ton pono sou xara" . 
+track:a112 track:tyear 1965 . 
+track:a112 track:language "Greek" . 
+track:a112 track:album "Manos Xatzidakis-Proti Ektelesi" .
+track:a112 track:singer sing:a13 .
+
+
+track:a113 track:title "In the cool of the day" . 
+track:a113 track:tyear 1963 . 
+track:a113 track:language "English" . 
+track:a113 track:album "Those Lazy-Hazy-Crazy Days of Summer" .
+track:a113 track:InspiredBy track:a112.
+track:a113 track:singer sing:a14 .
+
+
+track:a115 track:title "The Train Leaves At 8" . 
+track:a115 track:tyear 2000 . 
+track:a115 track:language "English" . 
+track:a115 track:album "The Train Leaves At Eight" .
+track:a115 track:InspiredBy track:a114.
+track:a115 track:singer sing:a16 .
+
+
+track:a114 track:title "To treno fevgei stis okto" . 
+track:a114 track:tyear 1981 . 
+track:a114 track:language "Greek" . 
+track:a114 track:album "Ta Tragoudia Tis Htesinis Meras" .
+track:a114 track:singer sing:a15 .
+track:a114 track:singer sing:a17 .
+
+track:a116 track:title "An thimitheis t' oneiro mou" . 
+track:a116 track:tyear 1960 . 
+track:a116 track:language "Greek" . 
+track:a116 track:album "Ta Erotika tou '60" .
+track:a116 track:singer sing:a19 .
+
+track:a117 track:title "Honeymoon Song" . 
+track:a117 track:tyear 1994 . 
+track:a117 track:language "English" . 
+track:a117 track:album "Live at the BBC" .
+track:a117 track:InspiredBy track:a116.
+track:a117 track:singer sing:a18 .
+
+track:a118 track:title "Ntirlanta" . 
+track:a118 track:tyear 1969 . 
+track:a118 track:language "Greek" . 
+track:a118 track:album "To perivoli tou trellou" .
+track:a118 track:singer sing:a21 .
+
+track:a119 track:title "Darla Dirladada" . 
+track:a119 track:tyear 1970 . 
+track:a119 track:language "French" . 
+track:a119 track:album "Dalida" .
+track:a119 track:InspiredBy track:a118.
+track:a119 track:singer sing:a22 .
+
+track:a120 track:title "Min ton rotas ton ourano" . 
+track:a120 track:tyear 1959 . 
+track:a120 track:language "Greek" . 
+track:a120 track:album "To nisi ton gennaion" .
+track:a120 track:singer sing:a23 .
+
+track:a121 track:title "All Alone Am I" . 
+track:a121 track:tyear 1962 . 
+track:a121 track:language "English" . 
+track:a121 track:InspiredBy track:a120 .
+track:a121 track:singer sing:a22 .
+
+track:a122 track:title "Omorfi poli" . 
+track:a122 track:tyear 1962 . 
+track:a122 track:language "Greek" . 
+track:a122 track:singer sing:a25 .
+
+track:a123 track:title "Les Amants de Teruel" . 
+track:a123 track:tyear 1962 . 
+track:a123 track:language "French" . 
+track:a123 track:album "Les Amants de Teruel" .
+track:a123 track:InspiredBy track:a122 .
+track:a123 track:singer sing:a24 .
+
+track:a124 track:title "Abrazame" . 
+track:a124 track:tyear 1975 . 
+track:a124 track:language "Spanish" .
+track:a124 track:album "El Amor" .
+track:a124 track:singer sing:a27 .
+
+track:a125 track:title "Agapa me" . 
+track:a125 track:tyear 1977 . 
+track:a125 track:language "Greek" . 
+track:a125 track:album "Agapa me" .
+track:a125 track:InspiredBy track:a124 .
+track:a125 track:singer sing:a26 .
+
+track:a126 track:title "Si Me Dejas No Vale" . 
+track:a126 track:tyear 1977 . 
+track:a126 track:language "Spanish" . 
+track:a126 track:album "A mis 33 años" .
+track:a126 track:singer sing:a27 .
+
+track:a127 track:title "An mia mera se xaso" . 
+track:a127 track:tyear 1979 . 
+track:a127 track:language "Greek" . 
+track:a127 track:album "An mia mera se xaso" .
+track:a127 track:InspiredBy track:a126 .
+track:a127 track:singer sing:a28 .
+
+track:a128 track:title "Bastardo" . 
+track:a128 track:tyear 2011 . 
+track:a128 track:language "Italian" . 
+track:a128 track:album "Progetto B" .
+track:a128 track:singer sing:a29 .
+
+track:a129 track:title "Ta leme" . 
+track:a129 track:tyear 2011 . 
+track:a129 track:language "Greek" . 
+track:a129 track:album "Eipa stous filous mou" .
+track:a129 track:InspiredBy track:a128 .
+track:a129 track:singer sing:a30 .
+
+track:a130 track:title "Cu'mme" . 
+track:a130 track:tyear 1992 . 
+track:a130 track:language "Italian" . 
+track:a130 track:album "Ottantavoglia di cantare" .
+track:a130 track:singer sing:a31 .
+track:a130 track:singer sing:a33 .
+
+track:a131 track:title "Na 'soun allios" . 
+track:a131 track:tyear 2004 . 
+track:a131 track:language "Greek" . 
+track:a131 track:album "Exoume Logo" .
+track:a131 track:InspiredBy track:a130 .
+track:a131 track:singer sing:a36 .
+track:a131 track:singer sing:a32 .
+
+track:a132 track:title "La solitudine" . 
+track:a132 track:tyear 1993 . 
+track:a132 track:language "Italian . 
+track:a132 track:album "Laura Pausini" .
+track:a132 track:singer sing:a35 .
+
+track:a133 track:title "To nou sou kurie odige" . 
+track:a133 track:tyear 1994 . 
+track:a133 track:language "Greek" . 
+track:a133 track:album "Se katadikazo" .
+track:a133 track:InspiredBy track:a132 .
+track:a133 track:singer sing:a34 .
+
+track:a134 track:title "How you remind me" . 
+track:a134 track:tyear 2001 . 
+track:a134 track:language "English" . 
+track:a134 track:album "Silver Side Up" .
+track:a134 track:singer sing:a39 .
+
+track:a135 track:title "Ola auta pou fovamai" . 
+track:a135 track:tyear 2004 . 
+track:a135 track:language "Greek" . 
+track:a135 track:album "Na se vlepo na gelas" .
+track:a135 track:InspiredBy track:a136 .
+track:a135 track:singer sing:a38 .
+
+track:a136 track:title "Ojos asi" . 
+track:a136 track:tyear 1998 . 
+track:a136 track:language "Spanish" . 
+track:a136 track:album "¿Dónde Están los Ladrones?" .
+track:a136 track:singer sing:a41 .
+
+track:a137 track:title "Kataziteitai" . 
+track:a137 track:tyear 2001 . 
+track:a137 track:language "Greek" . 
+track:a137 track:album "Yp'euthini mou" .
+track:a137 track:InspiredBy track:a138 .
+track:a137 track:singer sing:a40 .
+
+track:a138 track:title "Total Eclipse of the Heart" . 
+track:a138 track:tyear 1983 . 
+track:a138 track:language "English" . 
+track:a138 track:album "Faster Than the Speed of Night" .
+track:a138 track:singer sing:a42 .
+
+track:a139 track:title "Eclissi del cuore" . 
+track:a139 track:tyear 2011 . 
+track:a139 track:language "Italian" . 
+track:a139 track:album "Sei Come Me Special Edition" .
+track:a139 track:InspiredBy track:a138 .
+track:a139 track:singer sing:a2 .
+
+track:a140 track:title "Right Here Waiting" . 
+track:a140 track:tyear 1989 . 
+track:a140 track:language "English" . 
+track:a140 track:album "Repeat Offender" .
+track:a140 track:singer sing:a44 .
+
+track:a141 track:title "Io scrivo canto e vivo per te" . 
+track:a141 track:tyear 2000 . 
+track:a141 track:language "Italian" . 
+track:a141 track:album "Mi basta il paradiso" .
+track:a141 track:InspiredBy track:a140 .
+track:a141 track:singer sing:a43 .
+
+track:a142 track:title "Barbie Girl" . 
+track:a142 track:tyear 1997 . 
+track:a142 track:language "English" . 
+track:a142 track:album "Aquarium" .
+track:a142 track:singer sing:a46 .
+
+track:a143 track:title "Soldi nun ce ne" . 
+track:a143 track:tyear 2013 . 
+track:a143 track:language "Italian" . 
+track:a143 track:InspiredBy track:a142 .
+track:a143 track:singer sing:a45 .
+
+track:a144 track:title "Tsikoulata" . 
+track:a144 track:tyear 2005 . 
+track:a144 track:album "Chiculata - Live" .
+track:a144 track:singer sing:a48 .
+
+track:a145 track:title "Oyte ston exthro mou" . 
+track:a145 track:tyear 2005 . 
+track:a145 track:language "Greek" . 
+track:a145 track:album "Anisixo gia sena" .
+track:a145 track:InspiredBy track:a144.
+track:a145 track:singer sing:a47 .
+
+track:a146 track:title "Thuthuka" . 
+track:a146 track:tyear 2002 . 
+track:a146 track:language "Portuguese" . 
+track:a146 track:album "Tudo Bem" .
+track:a146 track:singer sing:a50 .
+
+track:a147 track:title "Tzoutzouka" . 
+track:a147 track:tyear 2003 . 
+track:a147 track:language "Greek" . 
+track:a147 track:album "1000 Vanilia" .
+track:a147 track:InspiredBy track:a146.
+track:a147 track:singer sing:a49 .
+track:a147 track:singer sing:a51 .
+
+track:a148 track:title "Simarik (kiss kiss)" . 
+track:a148 track:tyear 1997 . 
+track:a148 track:language "Turkish" . 
+track:a148 track:album "Ölürüm Sana" .
+track:a148 track:singer sing:a52 .
+
+track:a149 track:title "Filakia" . 
+track:a149 track:tyear 2000 . 
+track:a149 track:language "Greek" . 
+track:a149 track:album "Filakia" .
+track:a149 track:InspiredBy track:a149.
+track:a149 track:singer sing:a49 .
+
+track:a150 track:title "L'ete indien" . 
+track:a150 track:tyear 1975 . 
+track:a150 track:language "French" . 
+track:a150 track:album "Joe Dassin (Si tu t'appelles Mélancolie)" .
+track:a150 track:singer sing:a54 .
+
+track:a151 track:title "Oneira" . 
+track:a151 track:tyear 1975 . 
+track:a151 track:language "Greek" . 
+track:a151 track:album "Oneira" .
+track:a151 track:InspiredBy track:a150.
+track:a151 track:singer sing:a53 .
+
+track:a152 track:title "Never gonna give you up" . 
+track:a152 track:tyear 1994 . 
+track:a152 track:language "English" . 
+track:a152 track:album "Whenever You Need Somebody" .
+track:a152 track:singer sing:a56 .
+
+track:a153 track:title "Den tha s' arnitho pote" . 
+track:a153 track:tyear 1989 . 
+track:a153 track:language "Greek" . 
+track:a153 track:album "Ta xronia tis siopis" .
+track:a153 track:InspiredBy track:a152.
+track:a153 track:singer sing:a55 .
+
+track:a154 track:title "Da da da" . 
+track:a154 track:tyear 1981 . 
+track:a154 track:language "German" . 
+track:a154 track:album "Trio" .
+track:a154 track:singer sing:a58 .
+
+track:a155 track:title "Nta nta nta(San ta mikra paidia)" . 
+track:a155 track:tyear 2002 . 
+track:a155 track:language "Greek" . 
+track:a155 track:album "Karma" .
+track:a155 track:InspiredBy track:a154.
+track:a155 track:singer sing:a57 .
+
+track:a156 track:title "Gimme hope Jo Anna" . 
+track:a156 track:tyear 1988 . 
+track:a156 track:language "English" . 
+track:a156 track:album "File Under Rock" .
+track:a156 track:singer sing:a59 .
+
+track:a157 track:title "Tzoanna" . 
+track:a157 track:tyear 1989 . 
+track:a157 track:language "Greek" . 
+track:a157 track:album "Olympians and Pasxalis - 40 Hronia - 1966-2006" .
+track:a157 track:InspiredBy track:a156.
+track:a157 track:singer sing:a28 .
+
+track:a158 track:title "Don't go" . 
+track:a158 track:tyear 1982 . 
+track:a158 track:language "English" .
+track:a158 track:album "Upstairs at Eric's" .
+track:a158 track:singer sing:a61 .
+
+track:a159 track:title "Etsi einai i zoi mou" . 
+track:a159 track:tyear 1985 . 
+track:a159 track:language "Greek" . 
+track:a159 track:album "Tsirimpi" .
+track:a159 track:InspiredBy track:a158.
+track:a159 track:singer sing:a60 .
+
+track:a160 track:title "Careless Whisper" . 
+track:a160 track:tyear 1984 . 
+track:a160 track:language "English" . 
+track:a160 track:album "Careless Whisper" .
+track:a160 track:singer sing:a63 .
+
+track:a161 track:title "Akoma s' agapo" . 
+track:a161 track:tyear 1987 . 
+track:a161 track:language "Greek" . 
+track:a161 track:album "Akomi s' agapo" .
+track:a161 track:InspiredBy track:a160.
+track:a161 track:singer sing:a62 .
+
+
+
+sing:a13 sing:fname "Mairi".
+sing:a13 sing:lname "Linda".
+
+sing:a14 sing:fname "Nat".
+sing:a14 sing:lname "King Cole".
+
+sing:a15 sing:fname "Haris".
+sing:a15 sing:lname "Alexiou".
+
+sing:a16 sing:fname "The Walkabouts".
+
+sing:a17 sing:fname "Dimitra".
+sing:a17 sing:lname "Galani".
+
+sing:a18 sing:fname "The Beatles".
+
+sing:a19 sing:fname "Giovanna".
+
+sing:a20 sing:fname "Dalida".
+
+sing:a21 sing:fname "Dionysis".
+sing:a21 sing:lname "Savvopoulos".
+
+sing:a22 sing:fname "Brenda".
+sing:a22 sing:lname "Lee".
+
+sing:a23 sing:fname "Mairi".
+sing:a23 sing:lname "Lo".
+
+sing:a24 sing:fname "Edith".
+sing:a24 sing:lname "Piaf".
+
+sing:a25 sing:fname "Mikis".
+sing:a25 sing:lname "Theodorakis".
+
+sing:a26 sing:fname "Giannis".
+sing:a26 sing:lname "Poulopoulos".
+
+sing:a27 sing:fname "Julio".
+sing:a27 sing:lname "Iglesias".
+
+sing:a28 sing:fname "Pasxalis".
+
+sing:a29 sing:fname "Anna".
+sing:a29 sing:lname "Tatangelo".
+
+sing:a30 sing:fname "Eleonora".
+sing:a30 sing:lname "Zouganeli".
+
+sing:a31 sing:fname "Roberto".
+sing:a31 sing:lname "Murolo".
+
+sing:a32 sing:fname "Mihalis".
+sing:a32 sing:lname "Xatzigiannis".
+
+sing:a33 sing:fname "Mia".
+sing:a33 sing:lname "Martini".
+
+sing:a36 sing:fname "Despina".
+sing:a36 sing:lname "Olympiou".
+
+sing:a35 sing:fname "Laura".
+sing:a35 sing:lname "Pausini".
+
+sing:a34 sing:fname "Thanos".
+sing:a34 sing:lname "Kalliris".
+
+sing:a39 sing:fname "Nickelback".
+
+sing:a38 sing:fname "Alkistis".
+sing:a38 sing:lname "Protopsalti".
+
+sing:a41 sing:fname "Shakira".
+
+sing:a40 sing:fname "Natasa".
+sing:a40 sing:lname "Theodoridou".
+
+sing:a42 sing:fname "Bonnie".
+sing:a42 sing:lname "Tyler".
+
+sing:a43 sing:fname "Paola".
+sing:a43 sing:lname "Turci".
+
+sing:a44 sing:fname "Richard".
+sing:a44 sing:lname "Marx".
+
+sing:a45 sing:fname "Mister Max".
+
+sing:a46 sing:fname "Aqua".
+
+sing:a47 sing:fname "Giannis".
+sing:a47 sing:lname "Tasios".
+
+sing:a48 sing:fname "Giorgos".
+sing:a48 sing:lname "Xanthiotis".
+
+sing:a49 sing:fname "Lefteris".
+sing:a49 sing:lname "Pantazis".
+
+sing:a50 sing:fname "Axe".
+sing:a50 sing:lname "Bahia".
+
+sing:a51 sing:fname "Master Tempo".
+
+sing:a52 sing:fname "Tarkan".
+sing:a52 sing:lname "Tevetoğlu".
+
+sing:a53 sing:fname "Terry".
+sing:a53 sing:lname "Chrysos".
+
+sing:a54 sing:fname "Joe".
+sing:a54 sing:lname "Dassin".
+
+sing:a55 sing:fname "Takis".
+sing:a55 sing:lname "Antoniadis".
+
+sing:a56 sing:fname "Rick".
+sing:a56 sing:lname "Astley".
+
+sing:a57 sing:fname "Giorgos".
+sing:a57 sing:lname "Alkaios".
+
+sing:a58 sing:fname "Trio".
+
+
+sing:a59 sing:fname "Eddy".
+sing:a59 sing:lname "Grant".
+
+sing:a60 sing:fname "Platon".
+
+sing:a61 sing:fname "Yazoo".
+
+sing:a62 sing:fname "Themis".
+sing:a62 sing:lname "Adamantidis".
+
+sing:a63 sing:fname "George".
+sing:a63 sing:lname "Michael".
+
